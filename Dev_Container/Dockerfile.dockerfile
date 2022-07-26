@@ -22,4 +22,3 @@ RUN apk add --update \
   && rm -rf /var/cache/apk/*
 WORKDIR /tmp
 
-CMD /usr/local/bin/nvim 
