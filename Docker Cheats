@@ -1,0 +1,3 @@
+docker build -t "imagenamelowercasenospace" -< "dockerfilename".dockerfile -makes image from dockerfile
+docker create -it --name="name without quotes" "image name without quotes" - makes container from image
+docker start -a -i "Container Name" - launches into working directory of container
